@@ -14,7 +14,7 @@ const Login = () => {
         .then((userCredential) => {
             // Signed in
             const user = userCredential.user;
-            navigate("/")
+            navigate("/SignedIn")
             console.log(user);
         })
         .catch((error) => {
@@ -30,7 +30,7 @@ const Login = () => {
             <main >        
                 <section>
                     <div>                                            
-                        <p class="header"> FireTest </p>                       
+                        <h1 className="header"> Login Page </h1>                       
                                                        
                         <form>                                              
                             <div>

@@ -36,12 +36,16 @@ const Signup = () => {
         <section>
             <div>
                 <div>                  
-                    <h1> Andy Firebase Test</h1>                                                                            
-                    <form>                                                                                            
-                        <div>
+                    <h1> Register For an Account</h1> 
+                                                                                            
+                    <form>  
+                                                                                                             
+                        <div> 
+                           
                             <label htmlFor="email-address">
                                 Email address
                             </label>
+                           
                             <input
                                 type="email"
                                 label="Email address"
@@ -50,6 +54,7 @@ const Signup = () => {
                                 required                                    
                                 placeholder="Email address"                                
                             />
+                           
                         </div>
 
                         <div>
@@ -74,7 +79,7 @@ const Signup = () => {
                         </button>
                                                                      
                     </form>
-                   
+                    
                     <p>
                         Already have an account?{' '}
                         <NavLink to="/login" >
