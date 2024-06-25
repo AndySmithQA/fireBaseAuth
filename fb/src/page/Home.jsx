@@ -13,9 +13,9 @@ const Home = () => {
     return(
         <>
             <nav>
-                <p className='header'>
+                <h1 className='header'>
                     Welcome Home
-                </p>
+                </h1>
                 
                 <div>
         			<button onClick={gotoLogin}>

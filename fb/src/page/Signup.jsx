@@ -36,7 +36,7 @@ const Signup = () => {
         <section>
             <div>
                 <div>                  
-                    <h1> Register For an Account</h1> 
+                    <h1 className='header'> Register For an Account</h1> 
                                                                                             
                     <form>  
                                                                                                              
